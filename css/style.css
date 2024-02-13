@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portada{
+    background: rgb(130,207,74);
+    background: radial-gradient(circle, rgba(130,207,74,0.686622191011236) 0%, rgba(119,199,42,1) 40%, rgba(45,133,55,1) 100%);height: 700px;
+    background-size: 100% 200%; /* Ancho completo, altura del doble del div */
+    background-position: center top; /* Centro en la parte inferior */    
+    width: 100%;
+    display: flex;
+    justify-content: center;    /*horizontal*/
+    align-items: flex-start;      /*vertical*/
+    position: relative;
+    overflow: hidden;
+}
+
+.portada h1 img{
+    width: 50vw;
+}
+.info{
+    background: #2D8537;
+    width: 100%;
+    display: flex;
+    justify-content: center;    /*horizontal*/
+    align-items: flex-start;      /*vertical*/
+}
+
+.imagenes{
+    background: #2D8537;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+.personaje{
+    background: purple;
+    width: 10vw; /* view width*/
+    height: 10vw;
+    border-radius: 1vw;
+    overflow: hidden; /* si algo sale de ti ocultalo, by: jruiz <3 */
+}
+
+.personaje img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.informacion{
+    /* background: #2D8537; */
+    background: rgb(178,252,123);
+    background: linear-gradient(350deg, rgba(178,252,123,1) 0%, rgba(119,199,42,1) 10%, rgba(82,166,49,1) 20%, rgba(66,152,52,1) 30%, rgba(45,133,55,1) 85%, rgba(45,133,55,1) 100%);
+
+    width: 100%;
+    /* height: ; */
+    display: flex;
+    padding: 100px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.texto{
+    width: 40%;
+    padding-left: 15%;
+    padding-bottom: 7%;
+    /* font-family:  */
+}
+
+.texto h1{
+    font-size: 5rem;
+    color: white;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.texto h3{
+    color: #B4C7AA;
+    font-weight: 900;
+}
+
+.texto h5{
+    color: #1A3A2A;
+}
+
+.texto hr{
+    margin: 20px 0px;
+    width: 50%;
+    opacity: 0.4;
+}
+
+.imagen{
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+
+.descripcion_web{
+    font-size: 1.3rem; /* longitud relativa, tamaño del browser*/
+    color: #fff;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.collection{
+    padding: 100px 0px;
+    width: 600px;
+}
+
+.collection h5{
+    color: #12B0C9;
+    margin-bottom: 10px;
+}
+
+.collection h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.cta{
+    background: white;
+    border-radius: 100px;
+    padding: 15px 40px;
+    box-shadow: none;
+    border: 0 green solid;
+}
+
+.img1{
+    position: absolute;
+    bottom: -50px;
+    left: 10px;
+    height: 400px;
+}
+
+.img2{
+    position: absolute;
+    bottom: -50px;
+    left: 15rem;
+    height: 400px;
+}
+
+.img3{
+    position: absolute;
+    bottom: -50px;
+    right: 10px;
+    width: 400px;
+    z-index: 2;
+}
+
+.img4{
+    position: absolute;
+    bottom: -50px;
+    right: 350px;
+    height: 400px;
+}
+
+.img5{
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+    height: 550px;
+}
+
+.img6{
+    position: absolute;
+    bottom: -170px;
+    /* right: 300px; */
+    left: 30%;
+    height: 600px;
+    z-index: 2;
+}
+
+.img7{
+    position: absolute;
+    bottom: -170px;
+    /* right: 300px; */
+    left: 60%;
+    height: 550px;
+}
+
+.roadmap{
+    background: #2D8537;
+    width: 100%;
+    /* height: ; */
+    padding: 100px;
+}
+
+.roadmaptittle{
+    display: flex;
+    width: 70%;
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+.ouroadmap{
+    width: 50%;
+}
+
+.ouroadmap h1{
+    font-size: 5rem;
+    color: white;
+    font-weight: 900;
+    line-height: 0.8;
+}
+
+.textroadmap{
+    color: white;
+    width: 50%;
+    padding: 50px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.tarjetitas{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.tarjeta{
+    width: 32%;
+    text-align: center;
+    background: white;
+    border-radius: 1vw;
+    padding: 35px;
+    padding-bottom: 50px;
+}
+
+.circulito{
+    width: 30px;
+    height: 30px;
+    background: #B7FB66;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.tarjeta div h3{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1;
+    padding: 20px 0px;
+}
+
+footer{
+    display: flex;
+    background: #618C3C;
+    width: 100%;
+    padding: 40px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    width: 40px;
+    height: 40px;
+    background: #31500b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;
+    background: #537AFD;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
